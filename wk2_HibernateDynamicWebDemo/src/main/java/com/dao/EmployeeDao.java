@@ -1,4 +1,4 @@
-package com.simplilearn;
+package com.dao;
 
 public class EmployeeDao {
 

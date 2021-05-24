@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="wk1_CookieExample" path="/wk1_CookieExample" reloadable="true" source="org.eclipse.jst.jee.server:wk1_CookieExample"/><Context docBase="wk1_UserLoginApp" path="/wk1_UserLoginApp" reloadable="true" source="org.eclipse.jst.jee.server:wk1_UserLoginApp"/><Context docBase="wk1_SessionExample" path="/wk1_SessionExample" reloadable="true" source="org.eclipse.jst.jee.server:wk1_SessionExample"/><Context docBase="wk1_Get_Post_Example" path="/wk1_Get_Post_Example" reloadable="true" source="org.eclipse.jst.jee.server:wk1_Get_Post_Example"/></Host>
+      <Context docBase="wk1_CookieExample" path="/wk1_CookieExample" reloadable="true" source="org.eclipse.jst.jee.server:wk1_CookieExample"/><Context docBase="wk1_UserLoginApp" path="/wk1_UserLoginApp" reloadable="true" source="org.eclipse.jst.jee.server:wk1_UserLoginApp"/><Context docBase="wk1_SessionExample" path="/wk1_SessionExample" reloadable="true" source="org.eclipse.jst.jee.server:wk1_SessionExample"/><Context docBase="wk1_Get_Post_Example" path="/wk1_Get_Post_Example" reloadable="true" source="org.eclipse.jst.jee.server:wk1_Get_Post_Example"/><Context docBase="wk2_MavenHibernateWebAppDemo" path="/wk2_MavenHibernateWebAppDemo" reloadable="true" source="org.eclipse.jst.j2ee.server:wk2_MavenHibernateWebAppDemo"/></Host>
     </Engine>
   </Service>
 </Server>
